@@ -1,0 +1,112 @@
+#contact{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 100vh;
+    max-height: 85vh;
+}
+#contact h2{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.contactdesc{
+    font-size: 1.5rem;
+    color: #e8e5d1;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    margin-top: 3rem;
+}
+.contact-form input{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #f2f9c9;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 5px #ccc;
+    color: #f7efba;
+}
+.contact-form textarea{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.4rem;
+    box-shadow: 2px 2px 5px #ccc;
+    color: #f7efba;
+    
+}
+.contact-form button{
+    width: 10%;
+    padding: 10px 20px;
+    margin: 2rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #f3e9ac;
+    color: rgb(30, 13, 45);
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #f1d8fd;
+}
+@media screen and (max-width: 900px){
+
+    .contact-form{
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact h2{
+        font-size: 2.3rem;
+    }
+    .contactdesc{
+        font-size: 1.1rem;
+    }
+    .contact-form input{
+        width: 75%;
+        font-size: 1rem;
+    }
+    .contact-form textarea{
+        width: 75%;
+        font-size: 1.1rem;
+    }
+    .contact-form button{
+        width: 25%;
+    }
+    
+    
+}
+@media screen and (max-width: 600px){
+    .contact-form{
+        height: 55vh;
+        justify-content: center;
+    }
+    #contact h2{
+        font-size: 1.8rem;
+    }
+    .contactdesc{
+        font-size: 1rem;
+    }
+    .contact-form input{
+        width: 90%;
+        font-size: 0.8rem;
+    }
+    .contact-form textarea{
+        width: 90%;
+        font-size: 1rem;
+    }
+    .contact-form button{
+        width: 40%;
+    }
+    .contactdesc{
+        font-size: 1rem;
+    }
+    
+    
+}

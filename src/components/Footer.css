@@ -1,0 +1,70 @@
+#footersocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footerdesc{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+.socialtags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.footer-logo{
+    font-size: 2.5rem;
+    margin: 2rem;
+    
+}
+.footer-logo:hover{
+    transform: translate(0,-5px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#facebook{
+    color: rgba(184, 203, 247, 0.957);
+}
+#instagram{
+    color: #f05d91;
+}
+#linkedin{
+    color: #92caf5;
+}
+#github{
+    color: rgb(220, 242, 248);
+}
+footer{
+    text-align: center;
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 668px){
+    .footerdesc{
+        font-size: 1rem;
+    }
+    .footer-logo{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    footer{
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .footerdesc{
+        font-size: 0.8rem;
+    }
+    .footer-logo{
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+    footer{
+        font-size: 0.8rem;
+    }
+    
+}
